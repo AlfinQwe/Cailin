@@ -260,8 +260,8 @@ module.exports = async (naisa, m, commands, chatUpdate) => {
             status: 200,
             thumbnail: thumb,
             surface: 200,
-            message: `Naisa-MD`,
-            orderTitle: 'Dryan',
+            message: `Cai-er`,
+            orderTitle: 'AlfinQwe',
             sellerJid: '0@s.whatsapp.net'
         }
     },
@@ -281,7 +281,7 @@ const fdoc = {
     },
     message: {
         documentMessage: {
-            title: `Naisa-MD`,
+            title: `Cai-er`,
             jpegThumbnail: thumb,
         }
     }
@@ -312,8 +312,8 @@ const ftextt = {
     },
     message: {
         "extendedTextMessage": {
-            "text": `Naisa-MD`,
-            "title": `Dryan-MD`,
+            "text": `Cai-er`,
+            "title": `AlfinQwe`,
             'jpegThumbnail': thumb,
         }
     }
@@ -355,11 +355,11 @@ const fgif = {
     },
     message: {
         "videoMessage": {
-            "title": `Naisa-MD`,
-            "h": `Hmm`,
+            "title": `Cai-er`,
+            "h": `AlfinQwe`,
             'seconds': '359996400',
             'gifPlayback': 'true',
-            'caption': `Naisa-MD`,
+            'caption': `Cai-er`,
             'jpegThumbnail': thumb,
         }
     }
@@ -374,8 +374,8 @@ const fgclink = {
         "groupInviteMessage": {
             "groupJid": "60102810046-1616169743@g.us",
             "inviteCode": "m",
-            "groupName": `Naisa-MD`,
-            "caption": `Naisa-MD`,
+            "groupName": `Cai-er`,
+            "caption": `Cai-er`,
             'jpegThumbnail': thumb,
         }
     }
@@ -391,10 +391,10 @@ const fvideo = {
     },
     message: {
         "videoMessage": {
-            "title": `Naisa-MD`,
+            "title": `Cai-er`,
             "h": `Hmm`,
             'seconds': '359996400',
-            'caption': `Naisa-MD`,
+            'caption': `Cai-er`,
             'jpegThumbnail': thumb,
         }
     }
@@ -409,7 +409,7 @@ const floc = {
     },
     message: {
         locationMessage: {
-            name: `Naisa-MD`,
+            name: `Cai-er`,
             jpegThumbnail: thumb,
         }
     }
@@ -425,7 +425,7 @@ const floc2 = {
     },
     message: {
         "liveLocationMessage": {
-            "title": `Naisa-MD`,
+            "title": `Cai-er`,
             "h": `Hmm`,
             'jpegThumbnail': thumb,
         }
@@ -441,7 +441,7 @@ const fkontak = {
     },
     message: {
         'contactMessage': {
-            'displayName': `Naisa-MD`,
+            'displayName': `Cai-er`,
             'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Naisa-MD,;;;\nFN:Dryan-MD\nitem1.TEL;waid=6289513081052:62 895-1308-1052\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             'jpegThumbnail': thumb,
             thumbnail: thumb,
@@ -462,7 +462,7 @@ const fakestatus = {
         "imageMessage": {
             "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
             "mimetype": "image/jpeg",
-            "caption": `Created By Dryan-MD`,
+            "caption": `Created By AlfinQwe`,
             "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
             "fileLength": "28777",
             "height": 1080,
@@ -545,7 +545,7 @@ const fakestatus = {
 				user.limitAdd(m.sender, isPremium, isOwner, _user);
 			}
 			cmd.start(naisa, m, {
-                name: 'Naisa Alifia Yuriza',
+                name: 'Mukhammad Alfin Hidayatulloh',
                 metadata,
                 pushName: pushname,
                 participants,
